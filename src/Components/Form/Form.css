@@ -1,0 +1,40 @@
+input {
+    font-size: 1.8rem;
+    margin: 6px 4px;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+input:focus {
+    outline: none;
+}
+
+select {
+    font-size: 1.6rem;
+    margin: 6px 4px;
+    padding: 5px 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+}
+
+.label {
+    font-size: 1.6rem;
+    opacity: 0.8;
+    margin-bottom: 2px;
+}
+
+.inputs-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
