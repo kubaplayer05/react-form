@@ -1,0 +1,29 @@
+.btn {
+    width: 100%;
+    border: 2px solid #000;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 5px 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.primary {
+    background-color: #2d5da6;
+    color: #fff;
+}
+
+.primary:hover {
+    background-color: #1c4c95;
+}
+
+.secondary {
+    background-color: #fff;
+    color: #000;
+}
+
+.secondary:hover {
+    background-color: #ddd;
+}

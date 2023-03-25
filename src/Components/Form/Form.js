@@ -1,8 +1,16 @@
+import {useState} from "react";
 import Container from "../UI/Container";
+import Button from "./Button";
 import "./Form.css";
 function Form() {
+
+    const submitHandler = e => {
+        e.preventDefault()
+    }
+
   return (
     <Container>
+        <form onSubmit={submitHandler}>
         <div className="form-section">
             <label className="label">1. Enter your name.</label>
             <input type="text"/>
@@ -29,6 +37,9 @@ function Form() {
             <label className="label">5. Repeat your password.</label>
             <input type="password"/>
         </div>
+            <Button name="Login" type="submit" className="primary"/>
+            <Button name="Register" type="submit" className="secondary"/>
+        </form>
     </Container>
   );
 }
