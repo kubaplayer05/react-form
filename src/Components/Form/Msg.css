@@ -1,0 +1,17 @@
+.msg {
+    margin: 5px 0 0 5px;
+    font-size: 1.4rem;
+}
+
+.error {
+    color: #f21b34;
+}
+
+.warning {
+    color: #ed9a09;
+}
+
+.valid {
+    color: #2acf27;
+}
+
