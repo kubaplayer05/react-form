@@ -26,7 +26,7 @@ function App() {
         }
 
         addUser(prevState => {
-          return prevState.push(newUser)
+            return [...prevState, newUser]
         })
 
         console.log(users)
